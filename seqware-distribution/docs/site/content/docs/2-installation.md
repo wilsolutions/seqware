@@ -66,6 +66,7 @@ will tweet about it so consider following us on Twitter.
 
 * [SeqWare-1.0.13.ova](https://s3.amazonaws.com/oicr.vm/public/Seqware_1.0.13_Bindle_1.2_pre-release.ova)
 * [SeqWare-1.0.13.ova (this is the VM we recommend for the ICGC PanCancer project for data train 2.0)](https://s3.amazonaws.com/oicr.vm/public/Seqware_1.0.13_Bindle_1.2.1.ova)
+* [SeqWare-1.0.18.ova](https://s3.amazonaws.com/oicr.vm/public/Seqware_1.0.18_Bindle_1.2.1_pre-release.ova)
 
 Open VirtualBox and use the "Import Appliance" tool to create a new SeqWare VM
 on your system. Make sure you set the memory to the max you can afford, I
@@ -161,6 +162,8 @@ should be very helpful in learning how to use Linux VMs on Amazon's cloud.
 
 #### Stable Public AMI(s):
 
+* ** ami-90da15f8 **
+: 20140718 (SeqWare-1.0.18, Bindle 1.2.1 pre-release) Make sure you launch in Virginia and select the instance type "m1.xlarge" since the AMI is designed specifically to work with this type.
 * ** ami-80af40e8 **
 : 20140514 (SeqWare-1.0.13, Bindle 1.2 pre-release) Make sure you launch in Virginia and select the instance type "m1.xlarge" since the AMI is designed specifically to work with this type (we use the local disks provided by this instance).
 * ** ami-b1e9f4d8 DEPRECATED**
