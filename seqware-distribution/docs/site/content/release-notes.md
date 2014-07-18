@@ -9,6 +9,12 @@ markdown:  basic
 Procedure now is at https://wiki.oicr.on.ca/pages/viewpage.action?pageId=44533172
 -->
 
+## 1.0.18 (2014-07-18)
+
+This release contains a hotfix for file import via the CLI and associated tutorials. 
+
+### Improvement
+* [SEQWARE-1937] -  BasicDecider cannot find files injected using the CLI 
 
 ## 1.0.17 (2014-07-07)
 
